@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Meena!</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">Archana Devi's Day <span class="heart">❤️</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">My Better Half</a></li>
+            <li><a href="#memories">Memories</a></li>
+            <li><a href="#wishes">Wishes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h3 class="subtitle">Celebrating You</h3>
+            <h1 class="title">Happy Birthday,<br><span class="highlight">Archana! <span class="heart">❤️</span></span>
+            </h1>
+            <p class="hero-text"><strong>November 29 2026 </strong><br><br>Here's to the best sister in the world. May
+                your
+                day be as beautiful and special as you are.</p>
+            <a href="#about" id="explore-btn" class="btn primary-btn">Explore Your Gift</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container layout-grid">
+            <div class="about-image slide-up">
+                <!-- Highlighted Archana Portrait -->
+                <div class="image-wrapper glass-panel special-highlight">
+                    <img src="./photos/archana_portrait.jpg" alt="Archana Devi - Birthday Portrait">
+                    <div class="floating-badge">
+                        <span>With Love❤️</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text slide-up delay-1">
+                <h2 class="section-title">To My Better Half</h2>
+                <div class="divider"></div>
+                <p>Even though we've known each other for just two months, I'm genuinely happy that our paths crossed.
+                </p>
+                <p>I wish your life is always filled with happiness, beautiful moments, and endless smiles. No matter
+                    what problems or struggles come your way, I want you to know that I'll be there to support you. You
+                    don't have to face difficult days alone.
+                </p>
+                <p>May all your dreams come true, and may you always have reasons to smile.. Happy Birthday, Archana!
+                    <span class="heart">❤️</span>
+                </p>
+                <p
+                    style="text-align: right; font-weight: bold; color: var(--primary-color); font-style: italic; font-size: 1.2rem; margin-top: 20px;">
+                    - With lots of love, Harish</p>
+
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Love</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Memories</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memories Gallery Section -->
+    <section id="memories" class="memories section-padding bg-alt">
+        <div class="container text-center">
+            <h2 class="section-title slide-up">A Walk Down Memory Lane</h2>
+            <div class="divider mx-auto"></div>
+            <p class="section-subtitle slide-up delay-1">Some beautiful moments we've shared, captured forever.</p>
+
+            <div class="gallery-grid slide-up delay-2">
+                <!-- Polaroid 1: 3rd Std -->
+                <div class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="./photos/memory_3rd_std.jpg" alt="Archana 3rd Standard">
+                    </div>
+                    <div class="polaroid-caption">3rd Std Little Princess 🎒✨</div>
+                </div>
+                <!-- Polaroid 2: 4th Std -->
+                <div class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="./photos/memory_4th_std.jpg" alt="Archana 4th Standard">
+                    </div>
+                    <div class="polaroid-caption">4th Std Cute Smile 🌸🎈</div>
+                </div>
+                <!-- Polaroid 3: Recent -->
+                <div class="polaroid">
+                    <div class="polaroid-img">
+                        <img src="./photos/memory_recent.jpg" alt="Archana Recent Photo">
+                    </div>
+                    <div class="polaroid-caption">My Gorgeous Queen Today ❤️✨</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section id="wishes" class="wishes section-padding">
+        <div class="container relative">
+            <h2 class="section-title text-center slide-up">Heartfelt Wishes</h2>
+            <div class="divider mx-auto"></div>
+
+            <div class="wishes-container slide-up delay-1">
+                <div class="wish-card glass-panel">
+                    <div class="quote-icon">"</div>
+                    <p class="wish-text">May your day be filled with happiness and your year be filled with joy. You
+                        deserve all the best things in life. Happy Birthday, my loving wife! <span
+                            class="heart">❤️</span></p>
+                    <div class="wish-author">- Manikandan G</div>
+                </div>
+
+                <div class="wish-card glass-panel">
+                    <div class="quote-icon">"</div>
+                    <p class="wish-text">Thank you for always being there for me, through thick and thin. You are not
+                        just a sister, but my biggest inspiration.</p>
+                    <div class="wish-author">- Mr. Prahs</div>
+                </div>
+
+                <div class="wish-card glass-panel">
+                    <div class="quote-icon">"</div>
+                    <p class="wish-text">May this year be your best one yet! Keep smiling, keep shining, and keep being
+                        the amazing person you are.</p>
+                    <div class="wish-author">- Whole Family Members</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center text-white">
+            <h3 class="footer-title">Once again Happy Birthday Meena!</h3>
+            <p>Made with <span class="heart">❤️</span> your protective brother Mr. Prahs</p>
+            <div class="footer-bottom">
+                &copy; <span id="year"></span> | A digital gift to remember.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop autoplay>
+        <source src="birthday_bgm.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Music Toggle Button -->
+    <button id="music-toggle" class="music-btn" aria-label="Toggle Music">
+        <span id="music-icon">🔇</span>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
